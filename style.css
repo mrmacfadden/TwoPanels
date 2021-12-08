@@ -1,0 +1,76 @@
+*,
+*:before,
+*:after{
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+}
+html{
+    background:black;
+}
+body{
+    margin:0;
+    padding:0;
+    position:relative;
+}
+
+
+#panel-1{
+    height:100%;
+    background: rgb(255,158,0);
+    background: radial-gradient(circle, rgba(255,158,0,1) 0%, rgba(255,123,35,1) 100%);
+    transition:5s;
+    text-align:center;
+}
+#panel-2{
+    height:100%;
+    display:none;
+    background:white;
+    text-align:center;
+}
+.icon{
+    color:white;
+    z-index:1;
+    display:block;
+    text-align: right;
+    padding:10px;
+    cursor:pointer;
+}
+.exit{
+    color:black;
+}
+
+
+.controls{
+    font-size:100px;
+    color:#FFF;
+    opacity:.3;
+    padding-top:300px;
+}
+#pause{
+    display:none;
+}
+
+/*
+=================================================
+TYPOGRAPHY
+=================================================
+*/
+h1{
+    margin:0;
+    padding-top:200px;
+    font-family: 'Oswald', sans-serif;
+    font-size:54px;
+}
+p{
+  font-family: 'Roboto', sans-serif;  
+  font-size:18px;
+}
+
+#blueDate{
+    color:#ccc;
+}
+#greyDate{
+    color:#FFF;
+}
